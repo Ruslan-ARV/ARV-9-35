@@ -7,7 +7,7 @@ public class Rabbit extends Animal {
 
     void  eat (String food) {
         switch (food) {
-            case "Meat":
+            case "Grass":
                 System.out.println("Кролик любит кушать травку");
                 break;
             default:
